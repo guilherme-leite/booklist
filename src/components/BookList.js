@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { BookContext } from '../contexts/BookContext';
+import BookDetails from './BookDetails';
 
 const BookList = () => {
   const { books } = useContext(BookContext);
@@ -7,7 +8,7 @@ const BookList = () => {
     <div className="book-list">
       <ul>
         { books.map(book => {
-          return ( <BookDetail book={book} key={book.id} />);
+          return ( <BookDetails book={book} key={book.id} />);
         })}
       </ul>
     </div>
