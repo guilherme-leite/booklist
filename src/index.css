@@ -20,6 +20,7 @@ body {
   padding: 10px 20px;
   text-align: center;
   background: #6d3d6d;
+  border-radius: 4px 4px 0px 0px;
 }
 
 .navbar h1 {
@@ -81,8 +82,10 @@ input[type='text'] {
 
 input[type='submit'] {
   margin: 10px auto;
-  background: #eee;
+  background: #3c1f3c;
+  color: #fff;
   border: 0;
   padding: 6px 20px;
   display: block;
+  border-radius: 4px;
 }
