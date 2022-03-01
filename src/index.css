@@ -66,10 +66,10 @@ body {
 }
 
 form {
-  padding: 20px:
+  padding: 20px;
 }
 
-input[type="text"] {
+input[type='text'] {
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
@@ -79,7 +79,7 @@ input[type="text"] {
   border: 0;
 }
 
-input[type="text"] {
+input[type='submit'] {
   margin: 10px auto;
   background: #eee;
   border: 0;
