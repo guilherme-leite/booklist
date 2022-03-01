@@ -24,6 +24,8 @@
 
 // export default BookContextProvider;
 
+// Refatorando para utilizar o useReducer.
+
 import React, { createContext, useReducer } from 'react';
 import { bookReducer } from '../reducers/bookReducer';
 // import { v1 as uuid } from 'uuid';
